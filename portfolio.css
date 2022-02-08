@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-image:url(../images/work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+header .overlay{
+    min-height: 90vh;
+    background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0,0.6));
+   
+}
+
+header .overlay p{
+    padding-top: 80px;
+    font-size: 30px
+}
+
+header .overlay h1{
+    color: #fff;
+    padding-bottom: 0px;
+    font-size: 50px;
+    font-family: Barlow Condensed", Sans-serif
+}
+
+header .overlay nav.navbar button{
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+
+header .overlay nav.navbar button:hover{
+    background-color: #F08E1C;
+    color: #fff;
+}
+
+header .overlay nav.navbar li.nav-item a.nav-link span{
+    color: #fff;
+}
+
+
+header .overlay nav.navbar li.nav-item a.nav-link{
+    color: #fff;
+    margin-right: 30px;
+    font-size:16px;
+    font-weight: 400
+}
+
+
+header .overlay nav.navbar li.nav-item a.nav-link:hover{
+    color: #fff;
+}
+
+/*end of header*/
+
+/*start of cutting section*/
+
+section.cutting{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+section.cutting .edge{
+    height: 600px;
+}
+
+section.cutting  .edge img{
+    max-width: 100%;
+    height: 500px
+}
+
+
+section.cutting  .recent img{
+    max-width: 50%;
+    margin-bottom: 10px
+}
+
+section.cutting  .recent a{
+    color: #E36125;
+}
+
+section.cutting  .recent a:hover{
+    color: #E36125;
+    text-decoration: none
+}
+
+/*end of section cutting*/
+
+
+/*start of section nemo*/
+
+section.nemo{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+section.nemo a{
+    color: #E36125;
+}
+
+section.nemo a:hover{
+    color: #E36125;
+    text-decoration: none
+}
+
+
+

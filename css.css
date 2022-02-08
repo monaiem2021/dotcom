@@ -1,0 +1,478 @@
+*, .row{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-image:url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+header .overlay{
+    min-height: 90vh;
+    background: linear-gradient(to right, rgba(6,147,227, 0.9), rgba(6,147,227,0.9));
+   
+}
+
+
+
+
+header .overlay h2{
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 300;
+     font-family: Barlow Condensed", Sans-serif
+}
+
+header .overlay h1{
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-family: Barlow Condensed", Sans-serif
+}
+
+header .overlay  p{
+    color: #fff;
+    width: 50%;
+    font-family: Barlow Condensed", Sans-serif
+}
+
+
+header .overlay .button{
+    margin-top: 50px;
+}
+
+header .overlay .button .btn:first-of-type{
+    background-color:#F08E1C;
+    width: 190px;
+    height: 40px;
+    color: #fff;
+}
+
+
+header .overlay .button .btn:first-of-type a{
+    color: #fff;
+text-decoration: none;
+}
+
+
+header .overlay .button .btn:first-of-type:hover{
+   background: none;
+    border: 2px solid #F08E1C;;
+    width: 190px;
+    height: 40px;
+    color: #fff;
+}
+
+
+
+header .overlay .button .btn:nth-of-type(2){
+    border: 2px solid #fff;
+    width: 190px;
+    height: 40px;
+    color: #fff;
+}
+
+header .overlay .button .btn:nth-of-type(2):hover{
+    background:#000;
+    width: 190px;
+    height: 40px;
+    color: #fff;
+}
+
+header .overlay .button img{
+    width: 100%
+}
+
+
+
+header .overlay nav.navbar img{
+    height: 60px;
+    width: 60px;
+    
+}
+
+header .overlay nav.navbar button{
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+
+header .overlay nav.navbar button:hover{
+    background-color: #F08E1C;
+    color: #fff;
+}
+
+header .overlay nav.navbar li.nav-item a.nav-link span{
+    color: #fff;
+}
+
+
+header .overlay nav.navbar li.nav-item a.nav-link{
+    color: #fff;
+    margin-right: 30px;
+    font-size:16px;
+    font-weight: 400
+}
+
+
+header .overlay nav.navbar li.nav-item a.nav-link:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+section.result{
+    background-color: #F9F9F9;
+    padding-bottom: 50px
+}
+
+
+section.result h3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px
+}
+
+section.result .card{
+    position: relative;
+    height: 300px;
+    margin-top: 10px
+}
+
+section.result .card img{
+   height: 300px
+}
+
+section.result .increase{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     transition: all .6s ease
+}
+
+
+section.result .increase p{
+    position: absolute;
+    bottom: 40%;
+    right: 50%;
+    transform: translate(50%,50%);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section.result .see{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    opacity: 0;
+    transition: all .6s ease
+}
+
+
+
+section.result .see button{
+    position: absolute;
+    border: 3px solid #fff;
+    bottom: 40%;
+    right: 50%;
+    transform: translate(50%,50%);
+    width: 60%;
+    transform: translate(50%,50%);
+    color: #fff;
+    font-weight: bold
+   
+}
+
+/*end of result section*/
+
+
+
+/*start of plan section*/
+
+section.plan{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+section.plan h2{
+    padding-bottom: 35px;
+   
+}
+
+section.plan i{
+  color: #E36125;
+    font-size: 12px
+}
+
+section.plan .web{
+  padding-left: 10px
+}
+
+section.plan img{
+    height: 50px;
+    width: 50px
+}
+
+section.plan .title{
+    font-size: 40px;
+    padding-left: 20px
+}
+
+section.plan p{
+   padding-left: 75px
+}
+
+/*end of plan*/
+
+
+/*start of expand section*/
+
+
+section.expand{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.expand img{
+    height: 200px;
+    width: 200px
+}
+
+section.expand .expand{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+section.expand .yotpo button{
+    border: 2px solid #000;
+    box-shadow: none !important;
+}
+
+section.expand .yotpo i{
+   margin-left: 5px;
+      
+}
+   
+section.expand .yotpo .image1 img{
+  width: 150px;
+  height: 100px;    
+}
+   
+section.expand .yotpo .image2 img{
+  width: 150px;
+  height: 100px;    
+}
+
+/*end of expand section*/
+
+/*start of ecommerce section*/
+
+section.ecommerce{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+   
+section.ecommerce .card{
+    min-height: 500px;
+    transition: all .5s ease;
+    margin-top: 10px
+}
+
+section.ecommerce .card img{
+   cursor: pointer
+}
+
+section.ecommerce .card:hover{
+    box-shadow: 5px 5px 5px 2px #F9F9F9;
+}
+
+section.ecommerce .card .card-body a:first-of-type{
+    color: #1E93D0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+section.ecommerce .card p{
+   padding-top: 20px;
+    padding-bottom: 20px
+}
+
+section.ecommerce .card .card-body a:nth-of-type(2){
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section.ecommerce .card .card-body a:nth-of-type(2) i{
+   font-size: 10px;
+    font-weight: bold;
+    padding-left: 5px
+}
+
+section.ecommerce .card .card-body .protect{
+    padding-top: 35px;
+    padding-bottom: 24px
+    
+}
+
+/*end of ecommerce section*/
+
+/*start of strategy section*/
+
+section.strategy{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative
+}
+
+section.strategy img {
+    max-width: 100%;
+    height: 100%
+}
+
+section.strategy .session{
+    background-color: #E36125;
+    padding: 40px
+}
+
+section.strategy .session p:first-of-type{
+   color: #fff;
+   font-size: 25px
+}
+
+section.strategy .session p:nth-child(2){
+   color: #fff;
+}
+
+section.strategy .session p:nth-child(2) a{
+   color: #fff;
+    text-decoration: none;
+}
+
+section.strategy .session form input{
+    
+    box-shadow: none !important
+}
+
+section.strategy .session .btn{
+   color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing: 3px
+}
+
+section.strategy .session .btn:hover{
+ 
+    border: 2px solid #fff;
+}
+
+/*end of strategy section*/
+
+
+section.subscribe{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+
+section.subscribe i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #1E93D0;
+    cursor: pointer;
+}
+
+section.subscribe i:hover{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #E36125;;
+    cursor: pointer;
+}
+
+section.subscribe .phone a{
+    color: #1E93D0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section.subscribe .email input{
+    width: 100%;
+    height: 40px
+}
+
+section.subscribe .email button{
+    background-color: #e36125;
+    color: #fff;
+    width: 100%;
+    letter-spacing: 3px   
+}
+
+section.subscribe .end-page a{
+    color: #000;
+    text-decoration: none;
+}
+
+section.subscribe .end-page a:hover{
+   color: #1E93D0;
+    text-decoration: none;
+}
+
+/*end of subscribe section*/
+
+
+footer{
+    background-color: #1E93D0;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:280px) and (max-width:768px){
+    header .overlay h2{
+        font-size: 25px
+}
+    
+    header .overlay h1{
+    font-size: 23px;
+}
+    header .overlay  p{
+    width: 100%;
+}
+    
+    header .overlay  .button button{
+        margin-bottom: 20px
+} 
+    
+    header .overlay button:nth-of-type(2){
+    
+        margin-left: 0 !important;
+        margin-bottom: 30px
+}
+    
+    
+
+}
